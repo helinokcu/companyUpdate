@@ -1,0 +1,22 @@
+table tr td {
+    color: black;
+    font-size: 16px;
+}
+
+
+#manager-body {
+    margin: 30px;
+}
+
+#employee_body {
+    margin: 30px;
+}
+
+#welcome_body {
+    margin: 30px;
+}
+
+table tr td {
+    padding: 20px;
+    margin: 20px;
+}
