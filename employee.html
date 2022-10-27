@@ -50,23 +50,24 @@
   <div id="employee_body">
 
     <h1>Employee Schedule</h1>
-
+    <br>
     <!-- FORM -->
     <div>
-      <form action="">
+      <form action="" id="form">
         <label for="Description">Description</label>
-        <input type="text">
+        <input type="text" id="input">
         <label for="Date"></label>
         <input type="date">
-        <button>Add</button>
+        <div id="msg"></div>
+        <button class="btn btn-danger">Add</button>
       </form>
     </div>
-    <br><br>
+    <br>
 
     <!-- TABLE -->
     <div>
-      <table id="employee_table">
-        <thead>
+      <table class="table" id="employee_table">
+        <!-- <thead>
           <tr>
             <th scope="col">Application ID</th>
             <th scope="col">Name</th>
@@ -74,7 +75,7 @@
             <th scope="col">Date</th>
             <th scope="col">Action</th>
           </tr>
-        </thead>
+        </thead> -->
       </table>
     </div>
 
