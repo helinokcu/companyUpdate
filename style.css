@@ -1,0 +1,21 @@
+/* table tr td {
+    margin: 20px;
+    padding: 10px;
+} */
+
+#manager-body {
+    margin: 30px;
+}
+
+#employee_body {
+    margin: 30px;
+}
+
+#welcome_body {
+    margin: 30px;
+}
+
+table tr td {
+    padding: 20px;
+    margin: 20px;
+}
